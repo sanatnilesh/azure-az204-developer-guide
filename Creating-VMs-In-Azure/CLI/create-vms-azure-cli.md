@@ -61,7 +61,7 @@ az vm list-ip address\
   -- output table
 ```
 
-Step 5:<span style="color:red;"> It's necessary to delete created resources if they were created only for training purposes. Otherwise, leaving VMs running can result in significant costs on your Azure bill. Use the following command to delete resources.</span>
+Step 5:<font color="red"> It's necessary to delete created resources if they were created only for training purposes. Otherwise, leaving VMs running can result in significant costs on your Azure bill. Use the following command to delete resources.</font>
 
 ```
 az group delete --name "vm-demo-rg"
