@@ -1,7 +1,0 @@
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/HelloWorldWebApp
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/appsettings.Development.json
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/appsettings.json
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/HelloWorldWebApp.dll
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/HelloWorldWebApp.deps.json
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/HelloWorldWebApp.runtimeconfig.json
-/workspaces/az204-developer-guide/docker-example/HelloWorldWebApp/bin/Release/net8.0/publish/HelloWorldWebApp.pdb
