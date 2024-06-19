@@ -1,0 +1,49 @@
+#Deploy from public container registery in ACI
+az container create \
+    --resource-group azure-demo-container-instances \
+    --name demo-container-cli \
+    --dns-name-label demo-hello-world-cli-5\
+    --image mcr.microsoft.com/azuredocs/aci-helloworld \
+    --ports 80
+
+URL=$(az container show --resource-group 'azure-demo-container-instances' --name 'demo-container-cli' --query ipAddress.fqdn | tr -d '"')
+echo "http://$URL"
+
+#Deploy from private container registery in ACI
+ACR_NAME='democontainer5sanat4acr'
+ACR_REGISTRY_ID=$(az acr show --name $ACR_NAME --query id --output tsv)
+ACR_LOGINSERVER=$(az acr show --name $ACR_NAME --query loginServer --output tsv)
+
+echo "ACR ID: $ACR_REGISTRY_ID"
+echo "ACR ID: $ACR_LOGINSERVER"
+
+SP_NAME=acr-service-principal
+SP_PASSWD=$(az ad sp create-for-rbac \
+    --name http://$ACR_NAME-pull \
+    --scopes $ACR_REGISTRY_ID \
+    --role acrpull \
+    --query password \
+    --output tsv)
+
+SP_APPID=$(az ad sp show \
+    --id http://$ACR_NAME-pull \
+    --query appId \
+    --output tsv)
+
+echo "Service principal ID: $SP_APPID"
+echo "Service principal password: $SP_PASSWD"
+
+az container create\
+    --resource-group azure-demo-container-instances \
+    --name demo-container-cli-new \
+    --dns-name-label demo-hello-world-cli-new\
+    --image $ACR_LOGINSERVVER/helloworldwebappimage:v1 \
+    --ports 80
+    --registery-login-server $ACR_LOGINSERVER \
+    --registery-username $SP_APPID \
+    --registery-password $SP_PASSWD
+
+az container show --resource-group azure-demo-container-instances --name demo-container-cli-new
+
+URL=$(az container show --resource-group 'azure-demo-container-instances' --name 'demo-container-cli-new' --query ipAddress.fqdn | tr -d '"')
+echo "http://$URL"
