@@ -15,3 +15,13 @@ az cosmosdb sql database create --account-name cosmosdbdemobysanat --name sample
 ```
 az cosmosdb sql container create --resource-group cosmosdbexample --accountname cosmosdbdemobysanat --database-name sampledb --name samplecontainer --partition-key-path "id"
 ```
+
+***Cosmos DB Supported APIs***
+```
+NoSQL API
+Postgre SQL
+MongoDB
+Apache Cassandra 
+Cosmos DB for Table
+Apache Gremlin
+```
