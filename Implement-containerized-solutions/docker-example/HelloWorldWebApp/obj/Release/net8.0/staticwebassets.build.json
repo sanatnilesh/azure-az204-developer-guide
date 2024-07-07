@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ThxLiCCbndzDtGjWpllIYnOSOaa2isiBIk/peXqiqvY=",
+  "Source": "HelloWorldWebApp",
+  "BasePath": "_content/HelloWorldWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
