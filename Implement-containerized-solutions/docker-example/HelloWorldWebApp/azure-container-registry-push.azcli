@@ -1,0 +1,38 @@
+az login --use-device-code
+
+#create a resource group
+az group create  --name demo-container-rg --location canadacentral
+
+#create an azure container registry
+ACR_NAME='democontainer5sanat4acr'
+az acr create \
+    --resource-group demo-container-rg \
+    --name $ACR_NAME \
+    --sku Standard
+
+#step to login to container registry
+az acr login --name $ACR_NAME
+
+#Get the loginServer which is used in the image tag
+ACR_LOGINSERVR=$(az acr show --name $ACR_NAME --query loginServer --output tsv)
+echo $ACR_LOGINSERVR
+
+docker tag helloworldwebappimage:v1 $ACR_LOGINSERVR/helloworldwebappimage:v1
+docker image ls $ACR_LOGINSERVR/helloworldwebappimage:v1
+docker image ls
+docker push $ACR_LOGINSERVR/helloworldwebappimage:v1
+
+az acr repository list --name $ACR_NAME --output table
+az acr repository show-tags --name $ACR_NAME --repository helloworldwebappimage --output table
+
+
+#####
+## If we don't need to build locally and push, we can build in ACR with Tasks.
+######
+
+#Step 1 - use ACR build our image in azure and then push that into ACR.
+az acr build --image "helloworldwebappimage:v1-acr-task" --registry $ACR_NAME .
+
+#Both images are there now, the one we built locally and the one build with ACR Tasks.
+az acr repository show-tags --name $ACR_NAME --repository helloworldwebappimage --output table
+
