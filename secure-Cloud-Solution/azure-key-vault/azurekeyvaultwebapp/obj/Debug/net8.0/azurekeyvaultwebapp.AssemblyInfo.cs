@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("azurekeyvaultwebapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6b250cb276ceaae39ced73b31c98d6b778010f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3701096d17cd468122bf94c6db2ef443283e8a9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("azurekeyvaultwebapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("azurekeyvaultwebapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

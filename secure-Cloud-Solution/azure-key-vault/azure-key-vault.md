@@ -16,7 +16,11 @@ New-AzKeyVault -VaultName 'AZ204-Vault' -ResourceGroupName 'rg-204' -Location 'E
 ***Configuring Authentication for Azure Key Vault***
 ```
 1. Use Azure AD App Registration.
-2. Use Managed Identity.
+2. Use Managed Identity. 
+    Best resource to learn about how managed Identity used to authenticate azureweb app with azure key vault.
+    (https://learn.microsoft.com/en-us/azure/key-vault/general/tutorial-net-create-vault-azure-web-app)
 3. Use Key Value References.
 ```
+
+
 
