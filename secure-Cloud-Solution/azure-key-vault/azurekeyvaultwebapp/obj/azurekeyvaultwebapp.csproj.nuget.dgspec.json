@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github-Projects\\az204-developer-guide\\secure-Cloud-Solution\\azure-key-vault\\azurekeyvaultwebapp\\azurekeyvaultwebapp.csproj": {}
+  },
+  "projects": {
+    "D:\\Github-Projects\\az204-developer-guide\\secure-Cloud-Solution\\azure-key-vault\\azurekeyvaultwebapp\\azurekeyvaultwebapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github-Projects\\az204-developer-guide\\secure-Cloud-Solution\\azure-key-vault\\azurekeyvaultwebapp\\azurekeyvaultwebapp.csproj",
+        "projectName": "azurekeyvaultwebapp",
+        "projectPath": "D:\\Github-Projects\\az204-developer-guide\\secure-Cloud-Solution\\azure-key-vault\\azurekeyvaultwebapp\\azurekeyvaultwebapp.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Github-Projects\\az204-developer-guide\\secure-Cloud-Solution\\azure-key-vault\\azurekeyvaultwebapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
