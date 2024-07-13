@@ -17,7 +17,7 @@ SecretClientOptions options = new SecretClientOptions()
 };
 var client = new SecretClient(new Uri("https://sanat-dhobi.vault.azure.net/"), new DefaultAzureCredential(), options);
 
-KeyVaultSecret secret = client.GetSecret("<mySecret>");
+KeyVaultSecret secret = client.GetSecret("color");
 
 string secretValue = secret.Value;
 

@@ -24,3 +24,16 @@ D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\a
 D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\obj\Debug\net8.0\azurekeyvaultwebapp.pdb
 D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\obj\Debug\net8.0\azurekeyvaultwebapp.genruntimeconfig.cache
 D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\obj\Debug\net8.0\ref\azurekeyvaultwebapp.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Azure.Core.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Azure.Identity.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\System.ClientModel.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\obj\Debug\net8.0\azurekeyvaultwebapp.csproj.AssemblyReference.cache
+D:\Github-Projects\az204-developer-guide\secure-Cloud-Solution\azure-key-vault\azurekeyvaultwebapp\obj\Debug\net8.0\azurekey.A0384598.Up2Date
