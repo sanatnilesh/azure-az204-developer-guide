@@ -11,7 +11,7 @@ Three Types:
 ***Powershell Command to Provision Azure Key Vault***
 ```
 New-AzKeyVault -VaultName 'AZ204-Vault' -ResourceGroupName 'rg-204' -Location 'East US'
-```AzureA
+```
 
 ***Configuring Authentication for Azure Key Vault***
 ```
@@ -28,6 +28,21 @@ New-AzKeyVault -VaultName 'AZ204-Vault' -ResourceGroupName 'rg-204' -Location 'E
    - Verify your application functionality
 
 ```
+***Azure Key Vault Soft-delete***
+```
+Allow recovery of the deleted vaults and key vault objects (keys, secrets, and certificates)
 
+1. Soft-delete is enabled on the vault
+2. A key, certificate, secret or the vault is deleted
+3. It remains recoverable for 7 to 90 days
+4. To permanently delete the secret, a user should perform the PURGE operation
+```
 
+***Azure Key Vault Purge Protection***
+```
+When Purge protection is enabled, a vault or an object in the deleted state can not be purged until the retention period has passed.
+```
 
+***Azure Key Vault Keys and Azure Storage Service Encryption***
+
+***Azure Key Vault Certificates***
