@@ -20,6 +20,13 @@ New-AzKeyVault -VaultName 'AZ204-Vault' -ResourceGroupName 'rg-204' -Location 'E
     Best resource to learn about how managed Identity used to authenticate azureweb app with azure key vault.
     (https://learn.microsoft.com/en-us/azure/key-vault/general/tutorial-net-create-vault-azure-web-app)
 3. Use Key Value References.
+   - Move Configruation to Key Vault
+   - Deploy your App Service or Azure Function
+   - Create a system-assigned identity for your App
+   - Give GET KV SECRETS access to the app identity 
+   - Update configruation values with KV reference syntax
+   - Verify your application functionality
+
 ```
 
 
